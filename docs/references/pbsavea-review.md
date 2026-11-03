@@ -1,6 +1,6 @@
 # pbsavea.pl v0.5 読み取り調査
 
-確認日: 2026-11-03。作者はユーザー本人（ユーザー明示）。
+確認日: 2026-11-03。私が作成・公開したスクリプトの調査記録。
 
 取得元: https://drive.google.com/file/d/1YGKLmqjFIYropl1lCty0qFy-MerrIIre/view
 
@@ -9,7 +9,7 @@
 原本保存: [pbsavea-v0.5.pl](pbsavea-v0.5.pl)。取得したバイト列のまま保存。
 SHA-256: `2910bc57e970e00fec95c017aafeda8416ad85390f0ebcfd7f6aa2755a26394f`
 
-ユーザーの呼称はpbsave.plだが、公開リンクのファイル名・自己表示はpbsavea.pl version 0.5。別版の有無は未確認。静的に読んだ結果であり、実行・WAV生成・実機検証は行っていない。
+本資料の対象は、公開リンクのファイル名・自己表示がpbsavea.pl version 0.5のもの。別版の有無は未確認。静的に読んだ結果であり、実行・WAV生成・実機検証は行っていない。
 
 ## 確認できた処理
 
