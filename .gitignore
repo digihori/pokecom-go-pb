@@ -1,1 +1,6 @@
 .DS_Store
+
+# Technical evaluation build outputs
+.gradle/
+.kotlin/
+**/build/

@@ -1,0 +1,37 @@
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :compileKotlinJvm UP-TO-DATE
+> Task :compileJvmMainJava NO-SOURCE
+> Task :jvmProcessResources NO-SOURCE
+> Task :processJvmMainResources SKIPPED
+> Task :jvmMainClasses UP-TO-DATE
+> Task :jvmJar UP-TO-DATE
+> Task :compileTestKotlinJvm UP-TO-DATE
+> Task :compileJvmTestJava NO-SOURCE
+> Task :jvmTestProcessResources NO-SOURCE
+> Task :processJvmTestResources SKIPPED
+> Task :jvmTestClasses UP-TO-DATE
+> Task :jvmTest
+> Task :downloadKotlinNativeDistribution UP-TO-DATE
+> Task :compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :iosSimulatorArm64ProcessResources NO-SOURCE
+> Task :iosSimulatorArm64MainKlibrary UP-TO-DATE
+> Task :compileTestKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :validateLocalSwiftPMDependencies
+> Task :computeLocalPackageDependencyInputFiles UP-TO-DATE
+> Task :fingerprintSyntheticPackage UP-TO-DATE
+> Task :generateSyntheticLinkageSwiftPMImportProjectForCinteropsAndLdDump SKIPPED
+> Task :serializeSwiftPMDependenciesMetadataForLockFiles UP-TO-DATE
+> Task :generateUmbrellaPackageIdentifierBasedResolutionForDefault SKIPPED
+> Task :fetchUmbrellaPackageIdentifierForDefault SKIPPED
+> Task :syncPersistedPackageResolvedToSynthetic SKIPPED
+> Task :fetchSyntheticImportProjectPackages SKIPPED
+> Task :fingerprintXcodebuildIphonesimulator UP-TO-DATE
+> Task :dumpXcodebuildArgsIphonesimulator SKIPPED
+> Task :convertSyntheticImportProjectIntoDefFileIphonesimulator UP-TO-DATE
+> Task :linkDebugTestIosSimulatorArm64 UP-TO-DATE
+> Task :iosSimulatorArm64Test
+
+BUILD SUCCESSFUL in 1s
+16 actionable tasks: 4 executed, 12 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.5.0/userguide/configuration_cache_enabling.html

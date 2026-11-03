@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-03",
+  "model": "Evaluation only; PB rounding policy not confirmed",
+  "divisionVectors": {
+    "inputPairs": 1000,
+    "roundingPolicies": [
+      "HALF_UP",
+      "HALF_EVEN",
+      "DOWN"
+    ],
+    "precisions": [
+      1,
+      2,
+      10,
+      12,
+      24
+    ],
+    "comparisonsPerTarget": 3000,
+    "oracle": "Python decimal"
+  },
+  "arithmeticVectors": {
+    "commonPerTarget": 60,
+    "jvmOnlyGenerated": 1000,
+    "jvmOracle": "java.math.BigDecimal, MathContext(12, HALF_UP)"
+  },
+  "suites": [
+    {
+      "target": "iosSimulatorArm64Test",
+      "name": "iosSimulatorArm64Test.pb.evaluation.CandidateArithmeticVectorsTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.0
+    },
+    {
+      "target": "iosSimulatorArm64Test",
+      "name": "iosSimulatorArm64Test.pb.evaluation.ExactDivisionProbeTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.001
+    },
+    {
+      "target": "iosSimulatorArm64Test",
+      "name": "iosSimulatorArm64Test.pb.evaluation.ExactDivisionVectorsTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 1.058
+    },
+    {
+      "target": "jvmTest",
+      "name": "CandidateArithmeticOracleTest[jvm]",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.114
+    },
+    {
+      "target": "jvmTest",
+      "name": "CandidateArithmeticVectorsTest[jvm]",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.003
+    },
+    {
+      "target": "jvmTest",
+      "name": "ExactDivisionProbeTest[jvm]",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.004
+    },
+    {
+      "target": "jvmTest",
+      "name": "ExactDivisionVectorsTest[jvm]",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.085
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :jvmProcessResources NO-SOURCE
+> Task :processJvmMainResources SKIPPED
+> Task :jvmTestProcessResources NO-SOURCE
+> Task :processJvmTestResources SKIPPED
+> Task :downloadKotlinNativeDistribution UP-TO-DATE
+> Task :compileKotlinIosSimulatorArm64
+> Task :iosSimulatorArm64ProcessResources NO-SOURCE
+> Task :iosSimulatorArm64MainKlibrary
+> Task :compileKotlinJvm
+> Task :compileTestKotlinIosSimulatorArm64
+> Task :compileJvmMainJava NO-SOURCE
+> Task :jvmMainClasses
+> Task :jvmJar
+> Task :validateLocalSwiftPMDependencies
+> Task :computeLocalPackageDependencyInputFiles UP-TO-DATE
+> Task :fingerprintSyntheticPackage UP-TO-DATE
+> Task :generateSyntheticLinkageSwiftPMImportProjectForCinteropsAndLdDump SKIPPED
+> Task :serializeSwiftPMDependenciesMetadataForLockFiles UP-TO-DATE
+> Task :generateUmbrellaPackageIdentifierBasedResolutionForDefault SKIPPED
+> Task :fetchUmbrellaPackageIdentifierForDefault SKIPPED
+> Task :syncPersistedPackageResolvedToSynthetic SKIPPED
+> Task :fetchSyntheticImportProjectPackages SKIPPED
+> Task :fingerprintXcodebuildIphonesimulator UP-TO-DATE
+> Task :dumpXcodebuildArgsIphonesimulator SKIPPED
+> Task :convertSyntheticImportProjectIntoDefFileIphonesimulator UP-TO-DATE
+> Task :compileTestKotlinJvm
+> Task :linkDebugTestIosSimulatorArm64
+> Task :compileJvmTestJava NO-SOURCE
+> Task :jvmTestClasses
+
+> Task :jvmTest FAILED
+
+DecimalProbeTest[jvm] > recurringDecimalWithExplicitModel[jvm] FAILED
+    java.lang.AssertionError at DecimalProbeTest.kt:12
+
+JvmOracleTest[jvm] > thousandCasesAgainstIndependentJavaDecimal[jvm] FAILED
+    java.lang.AssertionError at JvmOracleTest.kt:29
+
+10 tests completed, 2 failed
+
+pb.evaluation.DecimalProbeTest.recurringDecimalWithExplicitModel[iosSimulatorArm64] FAILED
+    kotlin.AssertionError at $PROJECT_ROOT/prototypes/foundation/src/commonTest/kotlin/pb/evaluation/DecimalProbeTest.kt:12
+
+> Task :iosSimulatorArm64Test FAILED
+
+8 tests completed, 1 failed
+
+> Task :compileKotlinIosArm64
+> Task :iosArm64ProcessResources NO-SOURCE
+> Task :iosArm64MainKlibrary
+> Task :compileTestKotlinIosArm64
+> Task :fingerprintXcodebuildIphoneos UP-TO-DATE
+> Task :dumpXcodebuildArgsIphoneos SKIPPED
+> Task :convertSyntheticImportProjectIntoDefFileIphoneos UP-TO-DATE
+> Task :linkDebugTestIosArm64
+> Task :linkReleaseFrameworkIosSimulatorArm64
+> Task :linkReleaseFrameworkIosArm64
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':jvmTest'.
+> There were failing tests. See the report at: file://$PROJECT_ROOT/prototypes/foundation/build/reports/tests/jvmTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':iosSimulatorArm64Test'.
+> There were failing tests. See the report at: file://$PROJECT_ROOT/prototypes/foundation/build/reports/tests/iosSimulatorArm64Test/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+==============================================================================
+
+BUILD FAILED in 38s
+23 actionable tasks: 15 executed, 8 up-to-date
